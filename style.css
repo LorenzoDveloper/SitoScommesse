@@ -1,0 +1,736 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.35em;
+    margin-bottom: 0;
+    background-color: azure;
+}
+
+.intelligente{
+    font-family: sans-serif;
+    font-size: 0.6em;
+    height: 0.3em;
+    padding-top: 0;
+    text-align: start;
+    align-items: start;
+    margin-left: 0.5em;
+}
+
+.homephoto:hover{
+    opacity: 0.5;
+}
+
+.head{
+    display: flexbox;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-top: 0.7em;
+    background-color: midnightblue;
+    padding: 0.5em;
+}
+
+.upbar{
+    display: flex; 
+    gap: 1.7em;
+    overflow-x: auto; 
+    align-items: center;
+    padding: 1.2em; 
+    white-space: nowrap; 
+    scrollbar-width: thin;
+}
+
+.upbar::-webkit-scrollbar {
+    height: 1em; 
+}
+
+.upbar::-webkit-scrollbar-thumb {
+    background: midnightblue; 
+    border-radius: 4px; 
+}
+
+.upbar::-webkit-scrollbar-thumb:hover {
+    background: midnightblue;
+}
+
+.pulsante{
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 0.8em;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.35em;
+        margin-bottom: 0;
+        background-color: azure;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    body{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.35em;
+        margin-bottom: 0em;
+        background-color: azure;
+    }
+    .loginn{
+        margin-left: 10em;
+    }
+}
+
+
+    
+
+
+
+
+.pulsante:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.bonus{
+    width: 100%;
+}
+
+.incitare{
+    background-color: midnightblue;
+    width: 100%;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.text{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text{
+        font-family: sans-serif;
+        color: white;
+        font-weight: 800;
+        font-size: 1.5em;
+    }
+    .top{
+        margin-left: 0.5em;
+        margin-bottom: -0.3em;
+        margin-top: 1.7em;
+        font-family: sans-serif;
+        font-size: 1.7em;
+        font-weight: 750;
+        color: midnightblue;
+    }
+}
+
+@media (min-width: 1025px) {
+    .text{
+        font-family: sans-serif;
+        color: white;
+        font-weight: 800;
+        font-size: 2em;
+    }
+    .top{
+        margin-left: 0.5em;
+        margin-bottom: -0.3em;
+        margin-top: 1.7em;
+        font-family: sans-serif;
+        font-size: 1.4em;
+        font-weight: 750;
+        color: midnightblue;
+    }
+}
+
+
+.scommesse {
+    display: flex; 
+    gap: 1.7em;
+    overflow-x: auto; 
+    padding: 1.2em; 
+    white-space: nowrap; 
+    scrollbar-width: thin; 
+}
+
+.scommesse::-webkit-scrollbar {
+    height: 1em; 
+}
+
+.scommesse::-webkit-scrollbar-thumb {
+    background: midnightblue; 
+    border-radius: 4px; 
+}
+
+.scommesse::-webkit-scrollbar-thumb:hover {
+    background: midnightblue; 
+}
+
+.betuno, .betdue, .bettre {
+    flex: 0 0 auto; 
+    border: 0.11em solid #ccc; 
+    padding: 10px; 
+    background-color: transparent; 
+    border-radius: 5px; 
+    width: 200px; 
+    text-align: center; 
+}
+
+.top{
+    margin-left: 0.5em;
+    margin-bottom: -0.3em;
+    margin-top: 1.7em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 750;
+    color: midnightblue;
+}
+
+
+.blu{
+    border: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: midnightblue;
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.quotauno, .quotadue, .quotatre, .quotaquattro, .quotacinque, .quotasei, .quotasette, .quotaotto, .quotanove{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 0.55em;
+    font-weight: 700;
+    padding: 0.9em;
+    transition: 0.3s;
+}
+
+.quotauno:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotadue:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotatre:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotaquattro:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotacinque:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotasei:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotasette:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotaotto:hover{
+    background-color: orange;
+    color: white;
+}
+
+.quotanove:hover{
+    background-color: orange;
+    color: white;
+}
+
+h4{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .scommesse {
+        display: flex; 
+        gap: 1.7em;
+        overflow-x: auto; 
+        padding: 1.2em; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+    
+    .scommesse::-webkit-scrollbar {
+        height: 1em; 
+    }
+    
+    .scommesse::-webkit-scrollbar-thumb {
+        background: midnightblue; 
+        border-radius: 4px; 
+    }
+    
+    .scommesse::-webkit-scrollbar-thumb:hover {
+        background: midnightblue; 
+    }
+    
+    .betuno, .betdue, .bettre {
+        flex: 0 0 auto; 
+        border: 0.11em solid #ccc; 
+        padding: 10px; 
+        background-color: transparent; 
+        border-radius: 5px; 
+        width: 300px; 
+        text-align: center; 
+    }
+    
+    .top{
+        margin-left: 0.5em;
+        margin-bottom: -0.3em;
+        margin-top: 1.7em;
+        font-family: sans-serif;
+        font-size: 1.7em;
+        font-weight: 750;
+        color: midnightblue;
+    }
+    
+    
+    .blu{
+        border: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: midnightblue;
+        color: white;
+        padding: 1em;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .quotauno, .quotadue, .quotatre, .quotaquattro, .quotacinque, .quotasei, .quotasette, .quotaotto, .quotanove{
+        background-color: cornflowerblue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-family: sans-serif;
+        font-size: 0.8em;
+        font-weight: 700;
+        padding: 0.8em;
+        transition: 0.3s;
+    }
+    
+    .quotauno:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotadue:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotatre:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotaquattro:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotacinque:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotasei:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotasette:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotaotto:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotanove:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    h4{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    h3{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        color: midnightblue;
+        margin-top: -0.5em;
+    }
+    
+    .uno{
+        font-family: sans-serif;
+        font-size: 0.8em;
+        margin-top: -1.9em;
+        font-weight: 700;
+    }
+
+
+}
+
+@media (min-width: 1025px) {
+    .scommesse {
+        display: flex; 
+        gap: 1.7em;
+        overflow-x: auto; 
+        padding: 1.2em; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+    
+    .scommesse::-webkit-scrollbar {
+        height: 1em; 
+    }
+    
+    .scommesse::-webkit-scrollbar-thumb {
+        background: midnightblue; 
+        border-radius: 4px; 
+    }
+    
+    .scommesse::-webkit-scrollbar-thumb:hover {
+        background: midnightblue; 
+    }
+    
+    .betuno, .betdue, .bettre {
+        flex: 0 0 auto; 
+        border: 0.11em solid #ccc; 
+        padding: 10px; 
+        background-color: transparent; 
+        border-radius: 5px; 
+        width: 300px; 
+        text-align: center; 
+    }
+    
+    .top{
+        margin-left: 0.5em;
+        margin-bottom: -0.3em;
+        margin-top: 1.7em;
+        font-family: sans-serif;
+        font-size: 1.7em;
+        font-weight: 750;
+        color: midnightblue;
+    }
+    
+    
+    .blu{
+        border: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: midnightblue;
+        color: white;
+        padding: 1em;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .quotauno, .quotadue, .quotatre, .quotaquattro, .quotacinque, .quotasei, .quotasette, .quotaotto, .quotanove{
+        background-color: cornflowerblue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-family: sans-serif;
+        font-size: 0.8em;
+        font-weight: 700;
+        padding: 0.8em;
+        transition: 0.3s;
+    }
+    
+    .quotauno:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotadue:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotatre:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotaquattro:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotacinque:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotasei:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotasette:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotaotto:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    .quotanove:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    h4{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .termina{
+        display: block;
+        width: 100%;
+    }
+    h3{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        color: midnightblue;
+        margin-top: -0.5em;
+    }
+    
+    .uno{
+        font-family: sans-serif;
+        font-size: 3em;
+        margin-top: -1.9em;
+        font-weight: 700;
+        margin: 0;
+    }
+
+}
+
+h3{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: midnightblue;
+    margin-top: 0;
+}
+
+.uno{
+    font-family: sans-serif;
+    font-size: 0.7em;
+    margin-top: -1.9em;
+    font-weight: 700;
+}
+
+.slot {
+    display: flex; 
+    gap: 1.4em;
+    overflow-x: auto; 
+    padding: 1.2em; 
+    white-space: nowrap; 
+    scrollbar-width: thin; 
+}
+
+.slot::-webkit-scrollbar {
+    height: 3em; 
+}
+
+.slot::-webkit-scrollbar-thumb {
+    background: midnightblue; 
+    border-radius: 4px; 
+}
+
+.slot::-webkit-scrollbar-thumb:hover {
+    background: midnightblue; 
+}
+
+.slotuno, .slotuno, .slotuno {
+    flex: 0 0 auto;  
+    padding: 10px; 
+    background-color: transparent; 
+    border-radius: 5px; 
+    width: 200px; 
+    text-align: center; 
+}
+
+.image{
+    width: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image{
+        width: 170px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .image{
+        width: 200px;
+    }
+}
+
+.descri{
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+span{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.puls{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 0.8em;
+}
+
+.puls:hover{
+    opacity: 0.7;
+}
+
+footer{
+    margin-top: 3.6em;
+    background-color: darkcyan;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 1.3em;
+}
+.responsabile{
+    font-family: sans-serif;
+    font-size: 1.4em;
+    color: orange;
+    font-weight: 700;
+}
+
+.help{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+}
+
+.helpp{
+    font-size: 0.7em;
+    color: white;
+    opacity: 0.6;
+    font-family: sans-serif;
+    margin-top: 0.5em;
+}
+
+.aiuto{
+    background-color: orange;
+    color: midnightblue;
+    border: none;
+    border-radius: 3px;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    transition: 0.10s;
+    cursor: default;
+}
+
+.aiuto:hover{
+    opacity: 0.3;
+}
+
+::-webkit-scrollbar{
+    width: 0.3em;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track:hover{
+    background-color: #d1cdcd;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 2px;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+}
+
+.termina {
+    display: flex; 
+    gap: 1.4em;
+    flex-direction: column;
+    overflow-x: auto; 
+    padding: 1.2em; 
+    white-space: nowrap; 
+    scrollbar-width: thin; 
+}
+
+.termina::-webkit-scrollbar {
+    height: 3em; 
+}
+
+.termina::-webkit-scrollbar-thumb {
+    background: midnightblue; 
+    border-radius: 4px; 
+}
+
+.termina::-webkit-scrollbar-thumb:hover {
+    background: midnightblue; 
+}
